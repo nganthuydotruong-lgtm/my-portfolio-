@@ -1,88 +1,49 @@
-
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f4f7f6; 
+    background: #f9f9f9;
+}
+
+nav {
+    background: #ffdee9;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #7a003c;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 span {
+    color: #b30059;
+}
+
+.avatar {
+    width: 180px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.role {
+    font-style: italic;
     color: #333;
 }
-nav {
-    background-color: #3b3c43; 
-    padding: 15px 0;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+ul {
+    list-style: none;
+    padding: 0;
 }
-nav a {
-    color: #ffffff; 
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: 600;
-    font-size: 1.1em;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-nav a:hover {
-    background-color: #44454a; 
-}
-header {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #ffffff;
-    border-bottom: 3px solid #e0e0e0;
-}
-header h1 {
-    color: #3e3e47;
-    margin-bottom: 5px;
-    font-size: 2.5em;
-}
-header p {
-    font-style: italic;
-    color: #555;
-    font-size: 1.1em;
-}
-img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    border: 5px solid #e0e0e0; 
-}
-section {
-    padding: 40px 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-section h2 {
-    text-align: center;
-    color: #2e2e34;
-    font-size: 2em;
-    margin-bottom: 30px;
-    border-bottom: 2px solid #32333b;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-.project {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease-in-out;
-    font-weight: 600;
-    color: #3b3b44;
-}
-.project:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-}
-@media (max-width: 600px) {
-    nav a {
-        display: block;
-        margin: 10px 0;
-    }
-    header h1 {
-        font-size: 2em;
-    }
+
+ul li {
+    padding: 6px 0;
 }
